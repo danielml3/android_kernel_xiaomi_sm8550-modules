@@ -49,7 +49,7 @@ TRACE_EVENT(
 /* This part must be outside protection */
 #undef TRACE_INCLUDE_PATH
 #ifdef CONFIG_IPA_VENDOR_DLKM
-#define TRACE_INCLUDE_PATH ../../../../sm8550-modules/qcom/opensource/dataipa/drivers/platform/msm/gsi
+#define TRACE_INCLUDE_PATH ../../../../socrates-modules/qcom/opensource/dataipa/drivers/platform/msm/gsi
 #elif CONFIG_KALAMA_IPA_LE
 #define TRACE_INCLUDE_PATH ../gsi
 #else

@@ -8,7 +8,7 @@ KBUILD_OPTIONS += BT_ROOT=$(BT_ROOT)
 KBUILD_OPTIONS += CONFIG_BTFM_SLIM=m
 KBUILD_OPTIONS += CONFIG_I2C_RTC6226_QCA=m
 KBUILD_OPTIONS += CONFIG_MSM_BT_POWER=m
-KBUILD_OPTIONS += KBUILD_EXTRA_SYMBOLS=$(OUT_DIR)/../sm8550-modules/qcom/opensource/wlan/platform/Module.symvers
+KBUILD_OPTIONS += KBUILD_EXTRA_SYMBOLS=$(OUT_DIR)/../socrates-modules/qcom/opensource/wlan/platform/Module.symvers
 
 ccflags-y += -I$(BT_ROOT)/../wlan/platform/inc
 
